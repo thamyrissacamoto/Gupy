@@ -1,4 +1,4 @@
-def verifica_fibonacci(numero):
+def verificaFibonacci(numero):
     a, b = 0, 1
     
     if numero == a or numero == b:
@@ -11,7 +11,7 @@ def verifica_fibonacci(numero):
     
 numero = int(input("Informe um número para verificar se pertence à sequência de Fibonacci: "))
 
-if verifica_fibonacci(numero):
+if verificaFibonacci(numero):
     print("{} pertence à sequência de Fibonacci.".format(numero))
 else:
     print("{} não pertence à sequência de Fibonacci.".format(numero))
